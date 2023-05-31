@@ -29,6 +29,11 @@ ol {
     padding-left: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -204,7 +209,6 @@ nav>.list {
 }
 
 .advantage-section {
-    /* padding: 120px 156px 0; */
     padding-bottom: 0;
 }
 
@@ -224,17 +228,12 @@ nav>.list {
     margin-top: 8px;
 }
 
-.our-work-section {
-    /* padding: 120px 156px; */
-}
-
 .our-work-section .list {
     margin-top: 72px;
 }
 
 .team-section {
     background-color: #F4F4FD;
-    /* padding: 120px 156px; */
 }
 
 .team-section .list {
@@ -266,7 +265,6 @@ footer .paragraf {
 }
 
 .portfolio-section {
-    /* padding: 96px 156px 120px; */
     padding-top: 96px;
 }
 
@@ -306,16 +304,14 @@ footer .paragraf {
 .blocks-portfolio .link {
     display: block;
     width: 360px;
-    padding-bottom: 32px;
-    border: 1px solid #E7E9FC;
 }
 
-.blocks-portfolio .third-header {
-    margin-left: 16px;
-    margin-top: 32px;
+.blocks-portfolio .link div {
+    border: 1px solid #E7E9FC;
+    padding: 16px 32px;
+    border-top: none;
 }
 
 .blocks-portfolio .paragraf-portfolio {
-    margin-left: 16px;
     margin-top: 8px;
 }
