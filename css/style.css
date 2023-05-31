@@ -62,6 +62,10 @@ a {
     color: #434455;
 }
 
+.section {
+    padding: 120px 156px;
+}
+
 header {
     background-color: #fff;
     display: flex;
@@ -200,7 +204,8 @@ nav>.list {
 }
 
 .advantage-section {
-    padding: 120px 156px 0
+    /* padding: 120px 156px 0; */
+    padding-bottom: 0;
 }
 
 .advantage-section .second-title {
@@ -220,7 +225,7 @@ nav>.list {
 }
 
 .our-work-section {
-    padding: 120px 156px;
+    /* padding: 120px 156px; */
 }
 
 .our-work-section .list {
@@ -229,7 +234,7 @@ nav>.list {
 
 .team-section {
     background-color: #F4F4FD;
-    padding: 120px 156px;
+    /* padding: 120px 156px; */
 }
 
 .team-section .list {
@@ -261,7 +266,8 @@ footer .paragraf {
 }
 
 .portfolio-section {
-    padding: 96px 156px 120px;
+    /* padding: 96px 156px 120px; */
+    padding-top: 96px;
 }
 
 .main-title-portfolio {
