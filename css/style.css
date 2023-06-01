@@ -107,8 +107,9 @@ a {
   color: #2e2f42;
 }
 
-header {
+.header {
   background-color: #fff;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 header > .header-section {
@@ -116,7 +117,6 @@ header > .header-section {
   align-items: center;
   /* padding: 24px 156px; */
   /* justify-content: space-between; */
-  border-bottom: 1px solid #e7e9fc;
   padding: 24px 0;
 }
 
