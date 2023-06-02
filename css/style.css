@@ -108,7 +108,6 @@ a {
 header > .header-section {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .navigation {
@@ -138,6 +137,10 @@ header > .header-section {
 
 .footer-logo-link {
   color: #f4f4fd;
+}
+
+.header .link-logo {
+  padding: 24px 0;
 }
 
 .header-menu {
@@ -291,12 +294,12 @@ header > .header-section {
   padding: 32px 16px;
 }
 
-.team-list-element .third-header {
+.team-name-position .third-header {
   text-align: center;
   margin-bottom: 8px;
 }
 
-.team-list-element .paragraf {
+.team-name-position .paragraf {
   text-align: center;
 }
 
