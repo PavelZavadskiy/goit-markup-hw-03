@@ -1,8 +1,16 @@
 :root {
   --color-heder-link: #2e2f42;
   --color-heder-link-ahf: #404bbf;
+  --color-main-text: #434455;
   --bg-color-btn: #4d5ae5;
   --bg-color-btn-hf: #404bbf;
+  --border-color: #e7e9fc;
+  --bg-main-color: #f4f4fd;
+  --bg-body-color: #ffffff;
+  --color-main-title: #ffffff;
+  --color-btn-text: #ffffff;
+  --color-footer-logo: #f4f4fd;
+  --color-footer-paragraf: #f4f4fd;
 }
 
 *,
@@ -36,13 +44,13 @@ img {
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
+  color: var(--color-main-text);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: #ffffff;
+  background-color: var(--bg-body-color);
 }
 
 .container {
@@ -65,7 +73,7 @@ a {
 
 .paragraf-portfolio {
   font-size: 16px;
-  color: #434455;
+  color: var(--color-main-text);
 }
 
 .list {
@@ -78,7 +86,7 @@ a {
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffffff;
+  color: var(--color-main-title);
 }
 
 .second-title {
@@ -89,7 +97,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color-heder-link);
 }
 
 .third-header {
@@ -97,12 +105,12 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-heder-link);
 }
 
 .header {
-  background-color: #fff;
-  border-bottom: 1px solid #e7e9fc;
+  background-color: var(--bg-body-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 header > .header-section {
@@ -127,16 +135,16 @@ header > .header-section {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--bg-color-btn);
   margin-right: 76px;
 }
 
 .header-logo-link {
-  color: #2e2f42;
+  color: var(--color-heder-link);
 }
 
 .footer-logo-link {
-  color: #f4f4fd;
+  color: var(--color-footer-logo);
 }
 
 .header .link-logo {
@@ -153,7 +161,7 @@ header > .header-section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-heder-link);
   padding: 24px 0;
 }
 
@@ -177,11 +185,11 @@ header > .header-section {
 }
 
 .header-contacts-link {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-main-text);
 }
 
 .header-contacts-link:hover,
@@ -190,7 +198,7 @@ header > .header-section {
 }
 
 .order-section {
-  background-color: #2e2f42;
+  background-color: var(--color-heder-link);
   padding: 188px 0;
 }
 
@@ -205,7 +213,7 @@ header > .header-section {
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--color-btn-text);
   background-color: var(--bg-color-btn);
   border: none;
   cursor: pointer;
@@ -270,7 +278,7 @@ header > .header-section {
 }
 
 .team-section {
-  background-color: #f4f4fd;
+  background-color: var(--bg-main-color);
   padding: 120px 0;
 }
 
@@ -284,7 +292,7 @@ header > .header-section {
 }
 
 .team-list-box {
-  background-color: #ffffff;
+  background-color: var(--bg-body-color);
   text-align: center;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -304,7 +312,7 @@ header > .header-section {
 }
 
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--color-heder-link);
   padding: 100px 0;
 }
 
@@ -314,7 +322,7 @@ header > .header-section {
 }
 
 footer .paragraf {
-  color: #f4f4fd;
+  color: var(--color-footer-paragraf);
   max-width: 264px;
 }
 
@@ -336,9 +344,9 @@ footer .paragraf {
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  color: var(--bg-color-btn);
+  background-color: var(--bg-main-color);
+  border: 1px solid var(--border-color);
   cursor: pointer;
   padding: 12px 24px;
   border-radius: 4px;
@@ -346,8 +354,8 @@ footer .paragraf {
 
 .btn-portfolio:hover,
 .btn-portfolio:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--color-btn-text);
+  background-color: var(--bg-color-btn-hf);
   border: 1px solid transparent;
 }
 
@@ -363,7 +371,7 @@ footer .paragraf {
 }
 
 .portfolio-box div {
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--border-color);
   padding: 32px 16px;
   border-top: none;
 }
